@@ -1,7 +1,7 @@
 [
     {
         "name": "Résaweb",
-        "description": "Résaweb est un projet de semestre 2 consistant à réaliser un site web de réservation. Mon site permet de réserver des billets de voyage en vaisseau spatial.",
+        "description": "Résaweb est un projet de semestre 2 consistant à réaliser un site web de réservation. Mon site permet de réserver des billets d'embarquement pour des voyages en vaisseau spatial.",
         "technologies": [
             "HTML",
             "CSS",
@@ -15,13 +15,13 @@
             "UX/UI"
         ],
         "duration": "De février 2024 à juin 2024",
-        "team": "Seul",
+        "team": "seul",
         "context": "Projet universitaire",
         "url": "https://resaweb.da-silva.butmmi.o2switch.site/"
     },
     {
         "name": "Portrait Chinois",
-        "description": "Tout premier projet de développement web, il s'agit d'un portrait chinois réalisé en HTML et CSS.",
+        "description": "Tout premier projet de développement web, il s'agit d'un portrait chinois réalisé en HTML et CSS. Ce projet m'a permis de découvrir les bases du développement web et de me familiariser avec les différentes technologies.",
         "technologies": [
             "HTML",
             "CSS",
@@ -32,7 +32,7 @@
             "UX/UI"
         ],
         "duration": "De novembre 2023 à janvier 2024",
-        "team": "Seul",
+        "team": "seul",
         "context": "Projet universitaire",
         "url": "https://n-dasilva.github.io/SAE-105/"
     },
@@ -50,30 +50,27 @@
             "UX/UI"
         ],
         "duration": "Novembre 2024",
-        "team": "Seul",
+        "team": "seul",
         "context": "Projet universitaire",
         "url": "https://blog.da-silva.butmmi.o2switch.site/"
     },
     {
-        "name": "ENT",
-        "description": "Nous avons dû, lors de ce projet, réaliser une refonte de l'ENT de l'IUT de Marne-la-Vallée en suivant des démarches de gestion de projet et d'UX design.",
+        "name": "Mermade",
+        "description": "J'ai participé à la Nuit de l'Info 2024 où mon équipe et moi avons réalisé un site web pour l'association Race for Water en une nuit. Nous avons choisi de créer une application mêlant à la fois un jeu et une sensibilisation à la pollution des océans.",
         "technologies": [
             "HTML",
             "CSS",
-            "JavaScript",
-            "PHP",
-            "MySQL"
+            "JavaScript"
         ],
         "competences": [
             "Développement web",
             "Gestion de projet",
-            "Bases de données",
-            "UX/UI"
+            "Travail sous pression"
         ],
-        "duration": "De septembre 2024 à janvier 2025",
-        "team": "En équipe de 3",
-        "context": "Projet universitaire",
-        "url": ""
+        "duration": "Pendant la nuit du 6 au 7 décembre 2024",
+        "team": "en équipe de 8",
+        "context": "Concours",
+        "url": "https://dragondoee.github.io/mermade/"
     },
     {
         "name": "Datadopt'",
@@ -89,7 +86,7 @@
             "Gestion de données"
         ],
         "duration": "De septembre 2024 à décembre 2024",
-        "team": "En équipe de 3",
+        "team": "en équipe de 3",
         "context": "Projet universitaire",
         "url": "https://grd-gael.github.io/Datadopt/"
     }
