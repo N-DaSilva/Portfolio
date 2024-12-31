@@ -249,8 +249,19 @@ img {
   }
 
   .loader video {
-    width: 50vw;
+    max-width: 1000px;
     border: #ffffff solid 2px;
     opacity: 0;
     transition: all ease 1s;
   }
+
+
+@media screen and (max-width: 768px) {
+    .hover {
+        opacity: 1;
+    }
+
+    .loader video {
+        max-width: 100%;
+    }
+}
