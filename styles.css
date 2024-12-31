@@ -24,6 +24,7 @@
 }
 
 body {
+    line-height: 1.5;
     background-color: black;
     color: white;
     margin: 0;
@@ -204,7 +205,7 @@ section {
 }
 
 
-.wrapper {
+.wrapper-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -433,8 +434,96 @@ section {
     font-size: 5rem;
 }
 
-.biographie {
+.about p {
     max-width: 700px;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.wrapper-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 25px;
+}
+
+.biographie {
+    padding: 25px;
+    font-size: 1.2rem;
+    line-height: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biographie img {
+    height: 100%;
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    align-self: flex-end;
+}
+
+.biographie a {
+    margin-bottom: 75px;
+}
+
+.about a {
+    padding: 10px 15px;
+    width: fit-content;
+    transition: all 0.2s ease;
+    border: #ffffff00 solid 1px;
+}
+
+.about a:hover {
+    border: #ffffff solid 1px;
+}
+
+.technical-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "a a"
+        "b c";
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.technical-skills .skills-title {
+    grid-area: a;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.technical-skills div {
+    width: 200px;
+}
+
+.technical-skills .languages {
+    grid-area: b;
+    margin-left: auto;
+    text-align: right;
+}
+
+.technical-skills .softwares {
+    grid-area: c;
+    margin-right: auto;
 }
 
 .testimonials {
@@ -455,4 +544,28 @@ section {
 .cite {
     font-size: 1.2rem;
     font-family: 'Poiret One', sans-serif;
+}
+
+.opquast {
+    width: fit-content;
+    margin: auto;
+}
+
+.opquast h2 {
+    margin-bottom: 50px;
+}
+
+hr:not(footer hr) {
+    width: 50%;
+    margin: 50px auto;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer p {
+    padding: 25px;
+    margin: auto;
 }
