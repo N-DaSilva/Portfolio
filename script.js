@@ -14,10 +14,19 @@ document.querySelectorAll('path').forEach(function (star) {
     star.style.animation = `twinkle ${duration}s infinite`;
 });
 
+const fadeInElements = document.querySelectorAll('.fade-in');
+const sections = document.querySelectorAll('section');
+const header = document.querySelector('header');
+const hill = document.querySelector('.hill');
+
 document.addEventListener('scroll', function () {
-    const sections = document.querySelectorAll('section');
-    const header = document.querySelector('header');
-    const hill = document.querySelector('.hill');
+    fadeInElements.forEach(function (element) {
+        if (window.scrollY >= (element.offsetTop - window.innerHeight)) {
+            element.classList.add("fade-in-up");
+          } else {
+            element.classList.remove("fade-in-up");
+          }
+    });
 
     fadeOut(sections);
 

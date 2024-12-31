@@ -471,11 +471,12 @@ section {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    align-self: flex-end;
+    align-self: center;
 }
 
 .biographie a {
     margin-bottom: 75px;
+    font-size: 1rem;
 }
 
 .about a {
@@ -555,17 +556,33 @@ section {
     margin-bottom: 50px;
 }
 
-hr:not(footer hr) {
+hr {
     width: 50%;
     margin: 50px auto;
 }
 
-footer {
-    margin-top: 100px;
-    text-align: center;
+.contact{
+    padding: 50px;
 }
 
-footer p {
-    padding: 25px;
+.contact a {
     margin: auto;
 }
+
+@keyframes fadeIn {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .fade-in-up {
+    animation: 0.75s both fadeIn;
+  } 
+
+
+/* contact */
+
