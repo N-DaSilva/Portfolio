@@ -1,58 +1,7 @@
 [
     {
         "name": "Résaweb",
-        "description": "Résaweb est une application web de réservation de salles de réunion.",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "PHP",
-            "MySQL"
-        ],
-        "competences": [
-            "Développement web"
-        ],
-        "duration": "De février 2024 à juin 2024",
-        "team": "Seul",
-        "context": "Projet universitaire",
-        "url": "https://resaweb.da-silva.butmmi.o2switch.site/"
-    },
-    {
-        "name": "Portrait Chinois",
-        "description": "Portfolio est une application web de présentation de mes projets.",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "JSON"
-        ],
-        "competences": [
-            "Développement web"
-        ],
-        "duration": "De novembre 2023 à janvier 2024",
-        "team": "Seul",
-        "context": "Projet universitaire",
-        "url": "https://n-dasilva.github.io/SAE-105/"
-    },
-    {
-        "name": "Blog",
-        "description": "Blog est une application web de publication d'articles.",
-        "technologies": [
-            "PHP",
-            "CSS",
-            "MySQL"
-        ],
-        "competences": [
-            "Développement web"
-        ],
-        "duration": "Novembre 2024",
-        "team": "Seul",
-        "context": "Projet universitaire",
-        "url": "https://blog.da-silva.butmmi.o2switch.site/"
-    },
-    {
-        "name": "ENT",
-        "description": "ENT est une application web de gestion des notes et des absences des étudiants.",
+        "description": "Résaweb est un projet de semestre 2 consistant à réaliser un site web de réservation. Mon site permet de réserver des billets de voyage en vaisseau spatial.",
         "technologies": [
             "HTML",
             "CSS",
@@ -62,7 +11,64 @@
         ],
         "competences": [
             "Développement web",
-            "Gestion de projet"
+            "Bases de données",
+            "UX/UI"
+        ],
+        "duration": "De février 2024 à juin 2024",
+        "team": "Seul",
+        "context": "Projet universitaire",
+        "url": "https://resaweb.da-silva.butmmi.o2switch.site/"
+    },
+    {
+        "name": "Portrait Chinois",
+        "description": "Tout premier projet de développement web, il s'agit d'un portrait chinois réalisé en HTML et CSS.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "competences": [
+            "Développement web",
+            "UX/UI"
+        ],
+        "duration": "De novembre 2023 à janvier 2024",
+        "team": "Seul",
+        "context": "Projet universitaire",
+        "url": "https://n-dasilva.github.io/SAE-105/"
+    },
+    {
+        "name": "Web Saloon",
+        "description": "Web Saloon est un projet réalisé dans le cadre de l'enseignement de PHP. Il s'agit d'un blog codé selon le modèle MVC.",
+        "technologies": [
+            "PHP",
+            "CSS",
+            "MySQL"
+        ],
+        "competences": [
+            "Développement web",
+            "Bases de données",
+            "UX/UI"
+        ],
+        "duration": "Novembre 2024",
+        "team": "Seul",
+        "context": "Projet universitaire",
+        "url": "https://blog.da-silva.butmmi.o2switch.site/"
+    },
+    {
+        "name": "ENT",
+        "description": "Nous avons dû, lors de ce projet, réaliser une refonte de l'ENT de l'IUT de Marne-la-Vallée en suivant des démarches de gestion de projet et d'UX design.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ],
+        "competences": [
+            "Développement web",
+            "Gestion de projet",
+            "Bases de données",
+            "UX/UI"
         ],
         "duration": "De septembre 2024 à janvier 2025",
         "team": "En équipe de 3",
@@ -70,8 +76,8 @@
         "url": ""
     },
     {
-        "name": "Dataviz",
-        "description": "Dataviz est une application web de visualisation de données.",
+        "name": "Datadopt'",
+        "description": "Datadopt' est une application web de visualisation de données sur l'adoption infantile en France et à l'international réalisée lors du troisième semestre.",
         "technologies": [
             "HTML",
             "CSS",
@@ -79,7 +85,8 @@
             "JSON"
         ],
         "competences": [
-            "Développement web"
+            "Développement web",
+            "Gestion de données"
         ],
         "duration": "De septembre 2024 à décembre 2024",
         "team": "En équipe de 3",

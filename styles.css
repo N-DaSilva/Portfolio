@@ -1,3 +1,8 @@
+:root {
+    --gold : #E9C758;
+    --darkblue : #050218;
+}
+
 *,
 *::before,
 *::after {
@@ -34,7 +39,7 @@ h5,
 h6 {
     margin: 0;
     font-family: 'Poiret One', sans-serif;
-    color: #E9C758;
+    color: var(--gold);
 }
 
 a {
@@ -43,7 +48,7 @@ a {
 }
 
 .loader {
-    background-color: black;
+    background-color: #050218;
     position: fixed;
     height: 100vh;
     width: 100vw;
@@ -63,7 +68,7 @@ header {
     align-items: center;
     flex-direction: column;
     position: fixed;
-    z-index: -2;
+    z-index: -1;
     top: 0;
     width: 100%;
     height: 100vh;
@@ -182,7 +187,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('img/background2.jpg') no-repeat center center;
+    background-color: var(--darkblue);
     background-size: cover;
     clip-path: circle(300px at 50% 50%);
     -webkit-clip-path: circle(300px at 50% 50%);
@@ -210,7 +215,7 @@ img {
   }
 
   h1 {
-    color: #E9C758;
+    color: var(--gold);
   }
 
   .text a {
