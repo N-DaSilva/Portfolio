@@ -18,16 +18,12 @@ function updateTelescope() {
     if (document.documentElement.clientWidth <= 768){
         animationEnabled = false;
         background.style.clipPath = `circle(3000px at ${cursorX}px ${cursorY}px)`;
-            background.style.webkitClipPath = `circle(3000px at ${cursorX}px ${cursorY}px)`;
+        background.style.webkitClipPath = `circle(3000px at ${cursorX}px ${cursorY}px)`;
     } else {
-        animationEnabled = true;
-        background.style.clipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
+        if (animationEnabled) {
+            background.style.clipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
             background.style.webkitClipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
-    }
-    
-    if (animationEnabled) {
-        background.style.clipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
-        background.style.webkitClipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
+        }
     }
     requestAnimationFrame(updateTelescope);
 }
@@ -42,14 +38,11 @@ updateTelescope();
 checkbox.addEventListener('change', function () {
     if (checkbox.checked) {
         animationEnabled = false;
-        document.querySelector('label').innerHTML = 'Masquer les projets';
 
         background.style.clipPath = `circle(3000px at ${cursorX}px ${cursorY}px)`;
         background.style.webkitClipPath = `circle(3000px at ${cursorX}px ${cursorY}px)`;
 
     } else {
-        document.querySelector('label').innerHTML = 'Afficher les projets';
-
         background.style.clipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
         background.style.webkitClipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
 
