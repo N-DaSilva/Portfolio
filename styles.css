@@ -249,7 +249,7 @@ img {
   }
 
   .loader video {
-    max-width: 1000px;
+    width: 50vw;
     border: #ffffff solid 2px;
     opacity: 0;
     transition: all ease 1s;
