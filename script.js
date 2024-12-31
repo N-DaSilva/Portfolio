@@ -33,7 +33,7 @@ document.addEventListener('scroll', function () {
     header.style.filter = `blur(${window.scrollY / 1000}px)`;
 
     if (window.scrollY > document.documentElement.clientHeight/2) {
-        header.style.top = '-50%'
+        header.style.top = '-30%'
     } else {
         header.style.top = '0';
     }

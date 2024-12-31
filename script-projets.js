@@ -13,7 +13,18 @@ let cursorY = window.innerHeight / 2;
 let animationEnabled = true;
 let checkbox = document.getElementById('show');
 
+
 function updateTelescope() {
+    if (document.documentElement.clientWidth <= 768){
+        animationEnabled = false;
+        background.style.clipPath = `circle(3000px at ${cursorX}px ${cursorY}px)`;
+            background.style.webkitClipPath = `circle(3000px at ${cursorX}px ${cursorY}px)`;
+    } else {
+        animationEnabled = true;
+        background.style.clipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
+            background.style.webkitClipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
+    }
+    
     if (animationEnabled) {
         background.style.clipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
         background.style.webkitClipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
