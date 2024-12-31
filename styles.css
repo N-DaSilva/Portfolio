@@ -262,6 +262,7 @@ img {
     }
 
     .loader video {
-        width: 100vw;
+        width: 100%;
+        border: none;
     }
 }
