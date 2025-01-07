@@ -39,8 +39,8 @@ checkbox.addEventListener('change', function () {
     if (checkbox.checked) {
         animationEnabled = false;
 
-        background.style.clipPath = `circle(3000px at ${cursorX}px ${cursorY}px)`;
-        background.style.webkitClipPath = `circle(3000px at ${cursorX}px ${cursorY}px)`;
+        background.style.clipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
+        background.style.webkitClipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
 
     } else {
         background.style.clipPath = `circle(300px at ${cursorX}px ${cursorY}px)`;
@@ -55,7 +55,7 @@ checkbox.addEventListener('change', function () {
 document.querySelectorAll('.star').forEach(function (star) {
     let { x, y, width, height } = star.getBBox();
     let cx = width / 2 + x;
-    let cy = height / 2 + y;
+    let cy = height /2 + y;
     let duration = Math.random() + 1;
 
     star.style.transformOrigin = `${cx}px ${cy}px`;
