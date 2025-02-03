@@ -38,7 +38,7 @@ updateTelescope();
 checkbox.addEventListener('change', function () {
     if (checkbox.checked) {
         animationEnabled = false;
-
+        
         background.style.clipPath = `circle(3000px at ${cursorX}px ${cursorY}px)`;
         background.style.webkitClipPath = `circle(3000px at ${cursorX}px ${cursorY}px)`;
 
