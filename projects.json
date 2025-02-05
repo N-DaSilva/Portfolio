@@ -1,7 +1,7 @@
 [
     {
         "name": "Résaweb",
-        "description": "Résaweb est un projet de semestre 2 consistant à réaliser un site web de réservation. Mon site permet de réserver des billets d'embarquement pour des voyages en vaisseau spatial.",
+        "description": "Résaweb est un projet de semestre 2 consistant à réaliser un site web de réservation en PHP avec une base de données SQL. Mon site permet de réserver des billets d'embarquement pour des voyages en vaisseau spatial.",
         "technologies": [
             "HTML",
             "CSS",
@@ -56,7 +56,7 @@
     },
     {
         "name": "Mermade",
-        "description": "J'ai participé à la Nuit de l'Info 2024 où mon équipe et moi avons réalisé un site web pour l'association Race for Water en une nuit. Nous avons choisi de créer une application mêlant à la fois un jeu et une sensibilisation à la pollution des océans.",
+        "description": "J'ai participé à la Nuit de l'Info 2024 où mon équipe et moi avons réalisé un site web pour l'association Race for Water en une nuit. Nous avons choisi de créer une application mêlant à la fois un jeu et une sensibilisation à la pollution des océans. Le site est loin d'être parfait, mais collaborer pour le réaliser en une nuit était une expérience enrichissante et intense que je referais avec plaisir.",
         "technologies": [
             "HTML",
             "CSS",

@@ -590,14 +590,14 @@ hr {
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    padding: 50px;
+    padding: 20px;
 }
 
 .contact-page {
     border: #ffffff solid 2px;
     width: 100%;
     height: 100%;
-    padding: 50px;
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto auto auto;
@@ -659,10 +659,16 @@ form input:not([type='submit']),
 textarea {
     width: 400px;
     height: 2rem;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 textarea {
     height: 296px;
+    font-size: 0.8rem;
+    padding: 0.5rem 0.15rem;
 }
 
 .required {
@@ -763,7 +769,7 @@ textarea {
 
     input:not([type='submit']),
     textarea, .message, .mail-info {
-        width: 100%;
+        max-width: 100%;
     }
 
     .contact-page {
